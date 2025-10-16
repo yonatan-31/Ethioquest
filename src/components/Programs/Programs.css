@@ -1,9 +1,11 @@
+
 .programs{
     margin: 80px auto;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 .programs img{
     width: 100%;
@@ -13,8 +15,7 @@
 .program{
     flex-basis: 31%;
     position: relative;
-    aspect-ratio: 4 / 2; 
-    
+    aspect-ratio: 4 / 2;     
 }
 .caption{
     border-radius: 10px;
@@ -47,6 +48,8 @@
 @media (max-width: 650px) {
     .programs{
         flex-direction: column;
+        gap: 50px;
+        padding: 20px ;
     }
     .program{
         flex-basis: 100%;
